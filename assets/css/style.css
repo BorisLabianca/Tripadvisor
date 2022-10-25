@@ -1,0 +1,191 @@
+body {
+  font-family: "Trip Sans", sans-serif;
+  font-weight: 500;
+}
+header {
+  height: 60px;
+  background-color: white;
+  /* border: 1px solid black; */
+}
+.container {
+  max-width: 1136px;
+  margin: 0 auto;
+}
+header .container .flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.header-logo {
+  height: 40px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+header .container .flexbox .flex-child {
+  display: flex;
+  width: 451px;
+  height: 42px;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  align-content: center;
+}
+header .container .flexbox .flex-child div {
+  font-size: 16px;
+}
+
+header .container .flexbox .flex-child .connectez-vous {
+  background: black;
+  height: 42px;
+  width: 149px;
+  border-radius: 50px;
+  padding: 10px 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  align-content: center;
+}
+header .container .flexbox .flex-child .connectez-vous p {
+  color: white;
+  align-items: center;
+}
+header .container .flexbox .flex-child .avis {
+  height: 40px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  cursor: pointer;
+}
+header .container .flexbox .flex-child .alertes {
+  height: 40px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+header .container .flexbox .flex-child .voyages {
+  height: 40px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+header .container .flexbox .flex-child i {
+  height: 24px;
+  width: 24px;
+}
+main .container .main-div1 {
+  height: 246px;
+  padding: 32px 0 24px;
+  box-sizing: border-box;
+}
+main .container .main-div1 h1 {
+  font-size: 54px;
+  font-weight: 900;
+  height: 65px;
+}
+main .container .main-div1 h1 span {
+  color: #ff5d5d;
+}
+main .container .main-div1 .sous-titre {
+  font-size: 14px;
+  font-weight: 100;
+  color: #333333;
+}
+main .container .main-div1 div {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+main .container .main-div1 div div {
+  width: 181px;
+  height: 68px;
+  padding: 16px 16px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-content: center;
+}
+main .container .main-div1 div div .button-text {
+  width: 94px;
+  line-height: 20px;
+  font-size: 16px;
+}
+main .container .main-div2 {
+  display: flex;
+  justify-content: space-between;
+}
+main .container .main-div2 .pic1 {
+  justify-content: flex-start;
+}
+main .container .main-div2 .pic1 img {
+  height: 430px;
+  width: 654px;
+  object-fit: cover;
+}
+main .container .main-div2 div {
+  justify-content: flex-end;
+}
+main .container .main-div2 div .pic2 img {
+  height: 214px;
+  width: 480px;
+  object-fit: cover;
+  object-position: center;
+}
+main .container .main-div2 div .pic3 img {
+  height: 214px;
+  width: 480px;
+  object-fit: cover;
+  object-position: center;
+}
+
+main .container .main-div2-5 {
+  font-size: 12px;
+  font-weight: 100;
+  color: #333333;
+  padding: 20px 0;
+  margin-bottom: 34px;
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+.main-div3 div {
+  height: 342px;
+  width: 560px;
+}
+.main-div3 div h2 {
+  height: 68px;
+  width: 560px;
+}
+.main-div3 div p {
+  height: 240px;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
+}
+.main-div5 {
+  margin: 65px 0px;
+}
+.main-div5 h2 {
+  margin-bottom: 24px;
+}
+.main-div5 div {
+  width: 1136px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-div5 div img {
+  height: 270px;
+  width: 270px;
+}
+.main-div5 div img:nth-child(1) {
+  object-fit: cover;
+}
+.main-div5 div img:nth-child(4) {
+  height: 270px;
+  width: 270px;
+  justify-self: flex-end;
+}
