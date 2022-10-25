@@ -103,7 +103,9 @@ main .container .main-div1 div div {
   border-radius: 10px;
   display: flex;
   align-content: center;
+  cursor: pointer;
 }
+
 main .container .main-div1 div div .button-text {
   width: 94px;
   line-height: 20px;
